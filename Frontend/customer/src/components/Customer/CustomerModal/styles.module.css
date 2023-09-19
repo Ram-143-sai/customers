@@ -1,0 +1,44 @@
+.MuiOutlinedInput-root {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.MuiInputLabel-root {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.MuiInputBase-input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.2s;
+  width: 100%;
+}
+
+.MuiInputBase-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+.saveButtonContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.saveButton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saveButton:hover {
+  background-color: #0056b3;
+}

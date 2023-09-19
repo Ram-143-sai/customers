@@ -1,0 +1,44 @@
+.container {
+    margin-top: 16px;
+    padding: 16px;
+    background-color: #f0f0f0;
+  }
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.back {
+  margin-right: 10px;
+  cursor: pointer;
+  margin-left: -26px; 
+}
+
+.paper {
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #ffffff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+
+  @media (max-width: 600px) {
+    .container {
+      padding: 12px;
+    }
+    .paper {
+      padding: 12px;
+    }
+    .heading {
+      font-size: 20px;
+    }
+  }
+  

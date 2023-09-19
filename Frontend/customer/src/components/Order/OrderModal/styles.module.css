@@ -1,0 +1,21 @@
+.modalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+
+  .formControl {
+    margin-bottom: 10px;
+  }
+
+  .dialogTitle {
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .saveButton {
+    margin-top: 20px;
+  }
+  

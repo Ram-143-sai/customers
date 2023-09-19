@@ -1,0 +1,22 @@
+.paperStyle {
+    padding: 20px;
+    text-align: center;
+    background-color: lightsteelblue !important;
+   }
+  
+  .linkStyle {
+    text-decoration: none;
+  }
+  
+  .buttonStyle {
+    padding: 12px 24px;
+    cursor: pointer;
+    background-color: skyblue !important;
+    border-radius: 5px;
+    margin-top: 16px;
+  }
+
+  body{
+    background-color : lightcyan;
+  }
+  
